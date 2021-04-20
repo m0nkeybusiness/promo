@@ -1,0 +1,29 @@
+.header {
+   height: 1024px;
+   @media screen and (max-width:800px) {
+      height: auto;
+   }
+   .container {
+      margin: 0 auto;
+      width: 100vw;
+   }
+
+   .upper-logo {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      img[alt="logo"] {
+         margin-top: 10px;
+      }
+   
+      .menu-ref {
+         line-height: 24.51px;
+         font-size: 18px;
+         text-transform: uppercase;
+         padding: 34px 15px 0 0;
+
+      }
+   }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Open+Sans&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/normalize.css">
+   <link rel="stylesheet" href="dist/app.css">
+   <title>Test Task</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="upper-logo">
+            <img src="assets/images/logo/logo.svg" alt="logo">
+            <div class="menu-ref">Menu</div>
+         </div>
+         <div id="video-container">
+            <div class="video-container">
+               <div class="video-intro">
+                  <video loop="" muted="" playsinline="" autoplay="">
+                     <source src="assets/video/Pexels Videos 1448735.mp4" type="video/mp4">
+                  </video>
+                  <div class="circle">
+                     <h1><span>Take your time - use our services</span></h1>
+                     <a href="#about"><img src="assets/images/arroww.svg" alt="arrow"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <nav class="navigation hidden">
+            <div class="container">
+               <img src="assets/images/logo/white-logo.svg" alt="logo">
+               <div class="hamburger-menu">
+                  <input id="menu__toggle" type="checkbox" />
+                  <label class="menu__btn" for="menu__toggle">
+                     <span></span>
+                  </label>
+                  <ul class="navigation__list menu__box">
+                     <li class="menu__item"><a href="#">about</a></li>
+                     <li class="menu__item"><a href="#">capabilities</a></li>
+                     <li class="menu__item"><a href="#">agent's reward</a></li>
+                     <li class="menu__item"><a href="#">logistic</a></li>
+                     <li class="menu__item"><a href="#">trade</a></li>
+                     <li class="menu__item"><a href="#">contacts</a></li>
+                  </ul>
+               </div>
+               <ul class="navigation__list">
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">capabilities</a></li>
+                  <li><a href="#">agent's reward</a></li>
+                  <li><a href="#">logistic</a></li>
+                  <li><a href="#">trade</a></li>
+                  <li><a href="#">contacts</a></li>
+               </ul>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <section class="about" id="about">
+         <div class="container">
+            <h2 class="about__heading grid">About us</h2>
+            <p class="about__info grid">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada ut urna, semper tristique elementum
+               scelerisque nullam. Augue ultrices ultrices mattis leo et urna tincidunt.<br>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada ut urna, semper tristique elementum
+               scelerisque nullam. Augue ultrices ultrices mattis leo et urna tincidunt.
+            </p>
+            <p class="about__extra grid">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada ut urna, semper tristique elementum
+               scelerisque nullam. Augue ultrices ultrices mattis leo et urna tincidunt.
+            </p>
+            <div class="about__img grid">
+               <img src="assets/images/about.png" alt="image">
+            </div>
+         </div>
+
+      </section>
+   </main>
+   <script src="dist/app.js"></script>
+</body>
+
+</html>

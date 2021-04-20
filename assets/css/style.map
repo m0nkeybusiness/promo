@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/_grid.scss",
+		"../scss/_base.scss",
+		"../scss/components/_header.scss",
+		"../scss/components/_nav.scss",
+		"../scss/components/_about.scss"
+	],
+	"sourcesContent": [
+		"@import 'grid', 'base';\n@import 'components/header', 'components/nav', 'components/about';",
+		".container {\n   width: 90%;\n   max-width: 1200px;\n   margin: 0 auto;\n   display: flex;\n}\n\n.grid {\n   width: 50%;\n}",
+		"* {\n   margin: 0;\n   padding: 0;\n   box-sizing: border-box;\n   border: none;\n   outline: none;\n }\n\n html {\n  font-family: 'Open Sans', sans-serif;\n }\n \n h1 {\n   font-size: 48px;\n }\n\np {\n  font-family: 'Open Sans', sans-serif;\n  line-height: 29px;\n  font-size: 18px;\n  color:#000000;\n}\n",
+		".header {\n   .container {\n      justify-content: space-between;\n      align-items:flex-start;\n      padding-bottom: 150px;\n   }\n\n   img[alt=\"logo\"] {\n      margin-top: 10px;\n   }\n\n   &__menu-ref {\n      line-height: 24.51px;\n      font-size: 18px;\n      text-transform: uppercase;\n      padding-top: 34px;\n   }\n\n   &__video-intro {\n      width: 1024px;\n      height: 1024px;\n      background-color: rebeccapurple;\n      border-radius: 500px;\n\n      // video {\n      //    width: 100%;\n      //    height: 100%;\n      //    border-radius: 1000%;\n      //    overflow: hidden;\n      // }\n   }\n}",
+		".navigation {\n   background-color: #000000;\n   \n   .container {\n      justify-content: space-between;\n      align-items:center;\n   }\n\n   img {\n      padding: 10px 0;\n   }\n\n   &__list {\n      color: white;\n      list-style-type: none;\n      display: flex;\n      justify-content: space-between;\n      text-transform: uppercase;\n\n      li {\n         padding-right: 26px;\n         font-size: 18px;\n         line-height: 25px;\n      }\n\n      li:last-child {\n         padding: 0;\n      }\n   }\n}",
+		".about {\n   .container {\n      padding-top: 271px;\n      flex-wrap: wrap;\n   }\n\n   .grid {\n      padding-bottom: 100px;\n   }\n\n   &__heading {\n      margin: 0;\n      line-height: 65px;\n      font-family: 'Noto Serif', serif;\n   }\n\n   .about__extra {\n      align-self: center;\n      text-align: right;\n      padding-right: 30px;\n   }\n}"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,UAAU,CAAC;EACR,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI;CACf;;;AAED,AAAA,KAAK,CAAC;EACH,KAAK,EAAE,GAAG;CACZ;;;ACTD,AAAA,CAAC,CAAC;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;CACd;;;AAED,AAAA,IAAI,CAAC;EACJ,WAAW,EAAE,uBAAuB;CACpC;;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,IAAI;CAChB;;;AAEF,AAAA,CAAC,CAAC;EACA,WAAW,EAAE,uBAAuB;EACpC,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,KAAK,EAAC,OAAO;CACd;;;ACrBD,AACG,OADI,CACJ,UAAU,CAAC;EACR,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAC,UAAU;EACtB,cAAc,EAAE,KAAK;CACvB;;;AALJ,AAOG,OAPI,CAOJ,GAAG,CAAA,AAAA,GAAC,CAAI,MAAM,AAAV,EAAY;EACb,UAAU,EAAE,IAAI;CAClB;;;AAEA,AAAD,iBAAW,CAAC;EACT,WAAW,EAAE,OAAO;EACpB,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,IAAI;CACnB;;;AAEA,AAAD,oBAAc,CAAC;EACZ,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,gBAAgB,EAAE,aAAa;EAC/B,aAAa,EAAE,KAAK;CAQtB;;;AC9BJ,AAAA,WAAW,CAAC;EACT,gBAAgB,EAAE,OAAO;CA4B3B;;;AA7BD,AAGG,WAHQ,CAGR,UAAU,CAAC;EACR,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAC,MAAM;CACpB;;;AANJ,AAQG,WARQ,CAQR,GAAG,CAAC;EACD,OAAO,EAAE,MAAM;CACjB;;;AAEA,AAAD,iBAAO,CAAC;EACL,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,cAAc,EAAE,SAAS;CAW3B;;;AAhBA,AAOE,iBAPI,CAOJ,EAAE,CAAC;EACA,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACnB;;;AAXH,AAaE,iBAbI,CAaJ,EAAE,AAAA,WAAW,CAAC;EACX,OAAO,EAAE,CAAC;CACZ;;;AC3BP,AACG,MADG,CACH,UAAU,CAAC;EACR,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,IAAI;CACjB;;;AAJJ,AAMG,MANG,CAMH,KAAK,CAAC;EACH,cAAc,EAAE,KAAK;CACvB;;;AAEA,AAAD,eAAU,CAAC;EACR,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,mBAAmB;CAClC;;;AAdJ,AAgBG,MAhBG,CAgBH,aAAa,CAAC;EACX,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,IAAI;CACrB"
+}

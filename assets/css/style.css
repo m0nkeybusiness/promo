@@ -1,0 +1,131 @@
+/* line 1, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/_grid.scss */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* line 8, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/_grid.scss */
+.grid {
+  width: 50%;
+}
+
+/* line 1, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+/* line 9, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/_base.scss */
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 13, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/_base.scss */
+h1 {
+  font-size: 48px;
+}
+
+/* line 17, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/_base.scss */
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 29px;
+  font-size: 18px;
+  color: #000000;
+}
+
+/* line 2, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_header.scss */
+.header .container {
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 150px;
+}
+
+/* line 8, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_header.scss */
+.header img[alt="logo"] {
+  margin-top: 10px;
+}
+
+/* line 12, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_header.scss */
+.header__menu-ref {
+  line-height: 24.51px;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 34px;
+}
+
+/* line 19, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_header.scss */
+.header__video-intro {
+  width: 1024px;
+  height: 1024px;
+  background-color: rebeccapurple;
+  border-radius: 500px;
+}
+
+/* line 1, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_nav.scss */
+.navigation {
+  background-color: #000000;
+}
+
+/* line 4, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_nav.scss */
+.navigation .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 9, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_nav.scss */
+.navigation img {
+  padding: 10px 0;
+}
+
+/* line 13, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_nav.scss */
+.navigation__list {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+/* line 20, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_nav.scss */
+.navigation__list li {
+  padding-right: 26px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* line 26, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_nav.scss */
+.navigation__list li:last-child {
+  padding: 0;
+}
+
+/* line 2, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_about.scss */
+.about .container {
+  padding-top: 271px;
+  flex-wrap: wrap;
+}
+
+/* line 7, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_about.scss */
+.about .grid {
+  padding-bottom: 100px;
+}
+
+/* line 11, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_about.scss */
+.about__heading {
+  margin: 0;
+  line-height: 65px;
+  font-family: 'Noto Serif', serif;
+}
+
+/* line 17, ../../../../../Users/olegcerbaev/Desktop/projects/test_task/assets/scss/components/_about.scss */
+.about .about__extra {
+  align-self: center;
+  text-align: right;
+  padding-right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

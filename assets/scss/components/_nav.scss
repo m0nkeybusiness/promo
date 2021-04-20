@@ -1,0 +1,42 @@
+.navigation {
+   position: fixed;
+   background-color: #000000;
+   
+   .container {
+      width: 100vw;
+      margin: 0 auto;
+      justify-content: space-between;
+      align-items:center;
+   }
+
+   img {
+      padding: 10px 0;
+   }
+
+   &__list {
+      color: white;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      @media screen and (max-width: 800px){
+         display: none;
+      }
+   }
+
+      li {
+         padding-right: 26px;
+         font-size: 18px;
+         line-height: 25px;
+         }
+         
+         a {
+            text-decoration: none;
+            color: white;
+         }
+}
+
+.hidden {
+   opacity: 0;
+   visibility: hidden;
+}
